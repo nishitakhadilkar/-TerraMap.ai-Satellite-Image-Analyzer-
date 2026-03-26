@@ -1,12 +1,12 @@
-# **PROJECT TITLE:**
+# **Project title:**
 TerraMap.ai | Satellite-Image-Analyzer
 
-# **OVERVIEW**
+# **Overview**
 * **TerraMap.ai** is a deep learning-based satellite image classification system designed to identify land cover types such as forest, water, urban, smoke and fire detection and agricultural areas from Earth observation data.
 The model is built using ResNet-50 in PyTorch and trained on the EuroSAT dataset. It uses transfer learning along with preprocessing and data augmentation techniques to improve generalization. The system achieves 92% classification accuracy and evaluates performance using confusion matrix analysis.
 This project demonstrates how deep learning can be applied in remote sensing for automated terrain analysis.
 
-# **FEATURES**
+# **Features**
 *	Satellite Image Classification:
 <br>Classifies and maps satellite images into land cover categories such as forest, urban, water, and agriculture using a ResNet-50 deep learning model.
 *	Data Preprocessing and Augmentation:
@@ -20,7 +20,7 @@ This project demonstrates how deep learning can be applied in remote sensing for
 *	Modular and Extendable Design:
 <br>It has structured pipeline that allows future extension to object detection models (e.g., YOLO) or real-time satellite data integration TURES.
 
-# **TECHNOLOGIES AND TOOLS USED**
+# **Technology and tools used**
 *	Programming Language: 
 <br>Python 3.x
 *	Frameworks:
@@ -41,7 +41,7 @@ This project demonstrates how deep learning can be applied in remote sensing for
 <br>Python IDLE → development and testing 
 <br>Command Prompt (CLI) → running training and evaluation scripts
 
-# **STEPS TO INSTALL AND RUN THE PROJECT**
+# **Steps to install and run the project**
 * 1)Install Python & Dependencies
 <br>Install Python 3.10+ on your system. Then install the required libraries using:
 <br>[pip install streamlit torch torchvision pillow numpy pandas plotly]
@@ -53,7 +53,7 @@ This project demonstrates how deep learning can be applied in remote sensing for
 * 4)Use the Tool
 <br>Follow the UI to upload a satellite image and view the classification results.
 
-# **INSTRUCTIONS for TESTING**
+# **Instructions for testing**
 *	Terrain Classification Test :
 <br>Upload different satellite images (forest, urban, water, agriculture) and verify whether the predicted class matches the actual terrain.
 *	Robustness Test :
